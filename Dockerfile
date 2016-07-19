@@ -1,2 +1,4 @@
 FROM alpine:3.4
-RUN apk add --no-cache rsync ca-certificates
+RUN apk add --no-cache ca-certificates \
+                       rsync \
+                       openssh
